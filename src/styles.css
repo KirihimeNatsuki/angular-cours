@@ -139,11 +139,12 @@ ol {
 ---------------------*/
 
 .link{
-	color:white;
-	text-decoration: none;
+	color:white !important;
+	text-decoration: none !important;
+  cursor: pointer;
 }
 .link:hover{
-	color:#b01ba5;
+	color:#b01ba5 !important;
 }
 
 .site-btn {
@@ -156,7 +157,7 @@ ol {
 	padding: 24px 30px;
 	border-radius: 0;
 	text-transform: uppercase;
-	color: #081624;
+	color: #081624 !important;
 	line-height: normal;
 	cursor: pointer;
 	text-align: center;
@@ -271,7 +272,7 @@ ol {
 
 .intro-section {
 	background: #0c062e;
-	padding: 115px 0;
+	padding: 70px 0;
 }
 
 .text-box .top-meta {

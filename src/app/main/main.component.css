@@ -2,7 +2,7 @@
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 110px;
+  margin-top: 30px;
 	font-size: 14px;
 	font-weight: 700;
 	font-style: italic;
@@ -53,5 +53,9 @@
 }
 
 .sh-titlebar {
-  background-image: url(../img/bg2.jpg);
+  background-image: url(https://image.freepik.com/free-vector/retro-futuristic-landscape-background-with-palm-trees_23-2148279860.jpg);
+}
+
+.card{
+  height: 350px;
 }
