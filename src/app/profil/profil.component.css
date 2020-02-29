@@ -1,0 +1,206 @@
+body{
+  background-image: url(https://wallpaperplay.com/walls/full/4/6/8/126400.jpg);
+  background-size: cover;
+  background-repeat: round;
+}
+h1, h2, h3, h4, h5, h6, p{
+  color: #fff;
+}
+#main{
+  background: #0c062ec2;
+  margin-top: 0px;
+  margin:0 auto;
+  max-width: 1300px;
+  min-width: 960px;
+  position: relative;
+  padding: 20px;
+}
+
+.Mcenter{
+  margin-right: auto;
+}
+
+.title-inner {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #ddd;
+}
+
+.title{
+  max-width: 650px;
+  padding-left: 100px;
+  padding-bottom: 40px;
+}
+
+#pres{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+#moi img{
+  width: 300px;
+  margin-left: 12px;
+}
+.explain{
+  text-align:left;
+  padding-left: 100px;
+  max-width: 645px;
+  min-width: 600px;
+  margin-top: 20px;
+}
+
+/* ----------------
+ Widget timeline css
+---------------------*/
+
+.timeline {
+  position: relative;
+  background-image: linear-gradient(to bottom, #930054, #983279, #97519b, #926db8, #8b87d0, #7096df, #4ca4e9, #00b1ec, #00b6db, #00b7b2, #00b376, #2aab29);
+  width: 50px;
+  text-align: center;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .timeline {
+    margin: 0 0 0 20px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .timeline {
+    margin: 0 auto;
+  }
+}
+.timeline .point .year {
+  padding-top: 10px;
+  color: #fff;
+}
+.timeline .point .bocata {
+  position: relative;
+  padding: 20px;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 425px) {
+  .timeline .point .bocata {
+    width: 180px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 576px) {
+  .timeline .point .bocata {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 577px) {
+  .timeline .point .bocata {
+    width: 400px;
+  }
+  .timeline .point .bocata.little {
+    width: 250px;
+  }
+}
+.timeline .point .bocata + .bocata {
+  margin-top: 35px;
+}
+.timeline .point:nth-child(odd) .bocata {
+  box-shadow: -6px 10px 20px -20px #4a4a4a;
+  left: 100px;
+  position: relative;
+  z-index: 10;
+}
+.timeline .point:nth-child(odd) .bocata::after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  border-right: 10px solid #fff;
+  left: -10px;
+}
+.timeline .point:nth-child(even) .bocata {
+  box-shadow: 6px 10px 20px -20px #4a4a4a;
+}
+@media screen and (max-width: 768px) {
+  .timeline .point:nth-child(even) .bocata {
+    left: 100px;
+    position: relative;
+    z-index: 10;
+  }
+  .timeline .point:nth-child(even) .bocata::after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-top: -10px;
+    top: 50%;
+    border-right: 10px solid #fff;
+    left: -10px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .timeline .point:nth-child(even) .bocata {
+    right: 425px;
+    position: relative;
+    z-index: 10;
+  }
+  .timeline .point:nth-child(even) .bocata::after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-top: -10px;
+    top: 50%;
+    border-left: 10px solid #fff;
+    left: auto;
+    right: -10px;
+  }
+}
+@media screen and (min-width: 769px) and (min-width: 769px) {
+  .timeline .point:nth-child(even) .bocata.little {
+    right: 275px;
+  }
+}
+.timeline .point .arrow {
+  border: solid #f7f7f7;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 20px;
+  transform: rotate(45deg);
+}
+.timeline .point:first-child .arrow, .timeline .point:last-child .arrow {
+  border: solid #f7f7f7;
+  border-width: 0 12px 12px 0;
+  display: inline-block;
+  padding: 20px;
+  transform: rotate(45deg);
+}
+.timeline .point .arrow-clean {
+  border: solid #f7f7f7;
+  border-width: 0 20px 20px 0;
+  display: inline-block;
+  padding: 20px;
+  position: absolute;
+  left: -5px;
+  bottom: -13px;
+  transform: rotate(45deg);
+}
