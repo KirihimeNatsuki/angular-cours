@@ -12,6 +12,7 @@ import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-sv
 import { BlogComponent } from './blog/blog.component';
 import { ProfilComponent } from './profil/profil.component';
 import { ContactComponent } from './contact/contact.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 const routes: Routes = [
   { path: 'main', component: MainComponent },
@@ -23,9 +24,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, FontAwesomeModule, NgbModule, RouterModule.forRoot(routes) ],
+  imports:      [ BrowserModule, FormsModule, FontAwesomeModule, NgbModule, MatProgressBarModule, RouterModule.forRoot(routes) ],
   declarations: [ AppComponent, MainComponent, BlogComponent, ProfilComponent, ContactComponent ],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+  exports:      [MatProgressBarModule]
 })
 export class AppModule { 
     constructor(private library: FaIconLibrary) {

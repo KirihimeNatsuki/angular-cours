@@ -23,7 +23,7 @@
 
 .big-blog-item .blog-thumbnail {
 	margin-bottom: 30px;
-  width: 800px;
+  width: 450px;
   height: 50%;
 }
 
@@ -38,47 +38,6 @@
 
 .big-blog-item .blog-content p {
 	margin-bottom: 10px;
-}
-
-.site-pagination {
-	display: -ms-flex;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-
-.site-pagination a {
-	width: 38px;
-	height: 44px;
-	border-radius: 50%;
-	font-size: 16px;
-	font-weight: 500;
-	border: 2px solid transparent;
-	color: #fff;
-	display: -ms-inline-flex;
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.site-pagination a.active {
-	width: 44px;
-	margin: 0 10px;
-	color: #b01ba5;
-	border: 2px solid #b01ba5;
-}
-
-.site-pagination a.active:first-child {
-	margin-left: 0;
 }
 
 /* ------------------
@@ -113,3 +72,51 @@
  border: none;
  text-transform: uppercase;
 }
+
+/* -----------------------
+	Partie globale modifiée
+------------------------*/
+body{
+  background-color: #0c062e !important;
+}
+input:focus {
+	outline: none;
+}
+.sh-titlebar {
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/017/038/931/large/michal-kvac-imagine-small.jpg?1554396189);
+  background-size: cover !important;
+  background-position: center !important;
+}
+.sh-titlebar-light .sh-table {
+    padding: 0 0 330px 0 !important;
+}
+.titlebar-title{
+  color: #fff;
+}
+.norad {
+	display:none;
+}
+.icons {
+  padding-right: 20px;
+  cursor: pointer;
+}
+.white{
+  color:#fff;
+}
+.Tcenter{
+  text-align: center;
+}
+.no-padl{
+  padding-left: 0 !important;
+}
+.no-padr{
+  padding-right: 0 !important;
+}
+.mini{
+  font-size: 12px;
+  color: #ff5722;
+}
+.b01ba5{
+  color: #b01ba5;
+}
+
