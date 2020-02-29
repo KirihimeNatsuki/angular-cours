@@ -1,8 +1,6 @@
 body{
   background-image: url(https://66.media.tumblr.com/779fe45ab7e523998a87e17cccbd07cb/tumblr_ppyx833JM41vf7487o1_1280.jpg);
   background-size: cover;
-  max-height: 100vh;
-  min-height: 85vh;
   overflow: hidden;
 }
 
@@ -15,7 +13,8 @@ main{
 }
 
 #social{
-  margin-top: 40px;
+  margin-top: 20px;
+  padding-bottom: 15px;
 }
 
 .social_media{
